@@ -1,3 +1,3 @@
-import h from 'https://gitcdn.xyz/repo/developit/vhtml/master/src/vhtml.js'
+import h from "./vhtml/index"
 
-console.log(html`<h1>Hello world!</h1>`)
+document.getElementById("app").innerHTML = html`<h1>Hello world!</h1>`

@@ -56,5 +56,5 @@ export async function $fileSize(task) {
 export default async function (task) {
   await task
     .parallel(['_html', '_styles'])
-    .serial(['$fixIndex', '$zip', '$fileSize'])
+    .serial(['$fixIndex', /* '$zip', */ '$fileSize'])
 }
